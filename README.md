@@ -1,0 +1,3 @@
+# Conversion-Script-To-Get-Unixtime-with-DS1307.h-Library
+Conversion Script To Get Unixtime when using the DS1307.h Library with Arduino
+There are a number of great libraries to help you integrate an RTC with Arduino, and many of them come with functions to use unixtime (e.g. DS1307RTC http://www.pjrc.com/teensy/td_libs_DS1307RTC.html). One of the most popular libraries is the DS1307 by Matt Joyce (https://code.google.com/p/libds1307/downloads/list). I was using this library for a project because it worked well with the Phi Interfaces library (https://liudr.wordpress.com/libraries/phi_interfaces/). The library didn't have a function for retrieving unixtime so, I wrote the following script to convert its output into unixtime.
