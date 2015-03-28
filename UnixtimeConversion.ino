@@ -1,6 +1,6 @@
 /* This sketch was created in order to convert the time given by a DS3231 RTC to unixtime, when using the DS1307
 library. It requires a large number of variables to overcome the ATMEGAs inherent weekness for certain calculations.
-The Scripts accuracy can be tested against http://www.epochconverter.com. It is accurate to within 60 seconds.
+The Scripts accuracy can be tested against http://www.epochconverter.com.
 
 Created March 28, 2015
 By Kevin Fundarek
