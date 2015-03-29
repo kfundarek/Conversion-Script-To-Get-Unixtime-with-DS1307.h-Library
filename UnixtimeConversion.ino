@@ -55,7 +55,7 @@ void loop()
   
   //Create variable to account for current year being a leap year 
   int Year_Type = (rtc[6] % 4);
-  if (Year_Type == 0){
+  if (Year_Type == 0 && rtc[5] >= 3){
      Leap_Year_Correction_Factor = 1;
     }
   else
